@@ -3,11 +3,12 @@ import { Link } from "react-router-dom";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { USER_CONTEXT } from "../../ContextAPI/UserProvider";
 import Title from "../../Components/Common/Title/Title";
+import useTitle from "../../Hooks/useTitle";
 const Profile = () => {
   const { userId, users } = useContext(USER_CONTEXT);
   const [strogeUserId, setStrogeUserId] = useState(userId);
+  useTitle("User Details");
 
- 
   useEffect(() => {
     setStrogeUserId(JSON.parse(sessionStorage.getItem("userId")));
   }, []);

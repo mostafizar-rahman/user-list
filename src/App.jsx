@@ -3,9 +3,11 @@ import { useNavigate } from "react-router-dom";
 import { USER_CONTEXT } from "./ContextAPI/UserProvider";
 
 import Title from "./Components/Common/Title/Title";
+import useTitle from "./Hooks/useTitle";
 const App = () => {
   const { setUserId, users } = useContext(USER_CONTEXT);
   const navigate = useNavigate();
+  useTitle("User List")
 
 
   // ---------- Redrict use profile page, set user id session stroge and userId hooks
