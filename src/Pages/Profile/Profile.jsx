@@ -34,10 +34,11 @@ const Profile = () => {
           birthDate,
           bloodGroup,
           university,
+          describe,
         }) => {
           return (
             <div key={id} className="  rounded-md shadow-main  ">
-              <div className="grid sm:grid-cols-[35%_auto] grid-cols-1 gap-4 ">
+              <div className="grid sm:grid-cols-[35%_auto] grid-cols-1 gap-3 ">
                 <div className="bg-primary px-3 py-4 text-center rounded-l-md">
                   <img
                     src={image}
@@ -122,6 +123,9 @@ const Profile = () => {
                         {address?.address}, {address?.city}, {address?.country}
                       </p>
                     </div>
+                  </div>
+                  <div className="mt-3 mb-3">
+                    <p className="text-gray-600 text-sm">{describe}</p>
                   </div>
                 </div>
               </div>
