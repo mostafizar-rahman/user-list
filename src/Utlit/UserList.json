@@ -5,7 +5,7 @@
     "lastName": "Medhurst",
     "maidenName": "Smitham",
     "age": 50,
-    "gender": "male",
+    "gender": "Male",
     "email": "atuny0@sohu.com",
     "phone": "+63 791 675 8914",
     "birthDate": "2000-12-25",
@@ -33,7 +33,7 @@
     "lastName": "Quigley",
     "maidenName": "Cole",
     "age": 28,
-    "gender": "male",
+    "gender": "Male",
     "email": "hbingley1@plala.or.jp",
     "phone": "+7 813 117 7139",
     "birthDate": "2003-08-02",
@@ -50,7 +50,7 @@
       "address": {
         "address": "8821 West Myrtle Avenue",
         "city": "Glendale",
-        "country": "AZ"
+        "country": "BD"
       },
       "department": "Services",
       "title": "Senior Cost Accountant"
@@ -62,7 +62,7 @@
     "lastName": "Hills",
     "maidenName": "Hoeger",
     "age": 38,
-    "gender": "male",
+    "gender": "Male",
     "email": "rshawe2@51.la",
     "phone": "+63 739 292 7942",
     "username": "rshawe2",
@@ -73,14 +73,14 @@
     "address": {
       "address": "560 Penstock Drive",
       "city": "Grass Valley",
-      "country": "CA"
+      "country": "BD"
     },
     "university": "University of Cagayan Valley",
     "company": {
       "address": {
         "address": "18 Densmore Drive",
         "city": "Essex",
-        "country": "VT"
+        "country": "BD"
       },
       "department": "Marketing",
       "title": "Mechanical Systems Engineer"
@@ -92,7 +92,7 @@
     "lastName": "Cummerata",
     "maidenName": "Maggio",
     "age": 49,
-    "gender": "male",
+    "gender": "Male",
     "email": "yraigatt3@nature.com",
     "phone": "+86 461 145 4186",
     "username": "yraigatt3",
@@ -103,14 +103,14 @@
     "address": {
       "address": "150 Carter Street",
       "city": "Manchester",
-      "country": "CT"
+      "country": "BD"
     },
     "university": "Shenyang Pharmaceutical University",
     "company": {
       "address": {
         "address": "210 Green Road",
         "city": "Manchester",
-        "country": "CT"
+        "country": "BD"
       },
       "department": "Business Development",
       "title": "Paralegal"
@@ -122,7 +122,7 @@
     "lastName": "Schultz",
     "maidenName": "Yundt",
     "age": 38,
-    "gender": "male",
+    "gender": "Male",
     "email": "kmeus4@upenn.edu",
     "phone": "+372 285 771 1911",
     "username": "kmeus4",
@@ -133,17 +133,17 @@
     "address": {
       "address": "2721 Lindsay Avenue",
       "city": "Louisville",
-      "country": "KY"
+      "country": "BD"
     },
     "university": "Estonian University of Life Sciences",
     "company": {
       "address": {
         "address": "8398 West Denton Lane",
         "city": "Glendale",
-        "country": "AZ"
+        "country": "BD"
       },
       "name": "Adams Inc",
-      "title": "Web Developer I"
+      "title": "Web Developer"
     }
   },
   {
@@ -163,14 +163,14 @@
     "address": {
       "address": "18 Densmore Drive",
       "city": "Essex",
-      "country": "VT"
+      "country": "US"
     },
     "university": "Universidade da Beira Interior",
     "company": {
       "address": {
         "address": "6231 North 67th Avenue",
         "city": "Glendale",
-        "country": "AZ"
+        "country": "US"
       },
       "department": "Accounting",
       "title": "Civil Engineer"
@@ -182,7 +182,7 @@
     "lastName": "Abbott",
     "maidenName": "Wyman",
     "age": 31,
-    "gender": "Mail",
+    "gender": "Male",
     "email": "dpettegre6@columbia.edu",
     "phone": "+62 640 802 7111",
     "username": "dpettegre6",
@@ -200,7 +200,7 @@
       "address": {
         "address": "1407 Walden Court",
         "city": "Crofton",
-        "country": "MD"
+        "country": "CA"
       },
       "department": "Product Management",
       "title": "Sales Associate"
@@ -212,7 +212,7 @@
     "lastName": "Mueller",
     "maidenName": "Durgan",
     "age": 29,
-    "gender": "male",
+    "gender": "Male",
     "email": "ggude7@chron.com",
     "phone": "+86 946 297 2275",
     "username": "ggude7",
@@ -223,14 +223,14 @@
     "address": {
       "address": "5601 West Crocus Drive",
       "city": "Glendale",
-      "country": "AZ"
+      "country": "CA"
     },
     "university": "Wenzhou Medical College",
     "company": {
       "address": {
         "address": "81 Seaton Place Northwest",
         "city": "Washington",
-        "country": "DC"
+        "country": "CA"
       },
       "department": "Services",
       "title": "Clinical Specialist"
@@ -242,7 +242,7 @@
     "lastName": "Corkery",
     "maidenName": "Gleason",
     "age": 22,
-    "gender": "male",
+    "gender": "Male",
     "email": "nloiterton8@aol.com",
     "phone": "+86 356 590 9727",
     "username": "nloiterton8",
@@ -253,14 +253,14 @@
     "address": {
       "address": "5403 Illinois Avenue",
       "city": "Nashville",
-      "country": "TN"
+      "country": "IN"
     },
     "university": "Nanjing University of Economics",
     "company": {
       "address": {
         "address": "12245 West 71st Place",
         "city": "Arvada",
-        "country": "CO"
+        "country": "IN"
       },
       "department": "Human Resources",
       "title": "Community Outreach Specialist"
@@ -272,7 +272,7 @@
     "lastName": "Price",
     "maidenName": "Cummings",
     "age": 37,
-    "gender": "female",
+    "gender": "Male",
     "email": "umcgourty9@jalbum.net",
     "phone": "+60 184 408 0824",
     "username": "umcgourty9",
@@ -283,14 +283,14 @@
     "address": {
       "address": "8821 West Myrtle Avenue",
       "city": "Glendale",
-      "country": "AZ"
+      "country": "PK"
     },
     "university": "Melaka City Polytechnic",
     "company": {
       "address": {
         "address": "1649 Timberridge Court",
         "city": "Fayetteville",
-        "country": "AR"
+        "country": "PK"
       },
       "department": "Marketing",
       "title": "Senior Sales Associate"
@@ -302,7 +302,7 @@
     "lastName": "Jones",
     "maidenName": "Smith",
     "age": 39,
-    "gender": "male",
+    "gender": "Male",
     "email": "acharlota@liveinternet.ru",
     "phone": "+967 253 210 0344",
     "birthDate": "1961-09-12",
@@ -330,7 +330,7 @@
     "lastName": "Rath",
     "maidenName": "Heller",
     "age": 42,
-    "gender": "female",
+    "gender": "Male",
     "email": "rhallawellb@dropbox.com",
     "phone": "+380 962 542 6549",
     "birthDate": "1990-12-14",
@@ -339,7 +339,7 @@
     "address": {
       "address": "6463 Vrain Street",
       "city": "Arvada",
-      "country": "CO"
+      "country": "VT"
     },
     "university": "Kiev Slavonic University",
     "company": {
@@ -358,7 +358,7 @@
     "lastName": "Douglas",
     "maidenName": "Lemke",
     "age": 26,
-    "gender": "male",
+    "gender": "Male",
     "email": "lgribbinc@posterous.com",
     "phone": "+1 609 937 3468",
     "birthDate": "1967-07-23",
@@ -368,14 +368,14 @@
     "address": {
       "address": "87 Horseshoe Drive",
       "city": "West Windsor",
-      "country": "VT"
+      "country": "BD"
     },
     "university": "Dallas Christian College",
     "company": {
       "address": {
         "address": "310 Timrod Road",
         "city": "Manchester",
-        "country": "CT"
+        "country": "BD"
       },
       "department": "Research and Development",
       "title": "Sales Associate"
@@ -387,7 +387,7 @@
     "lastName": "Lynch",
     "maidenName": "Heidenreich",
     "age": 21,
-    "gender": "male",
+    "gender": "Male",
     "email": "mturleyd@tumblr.com",
     "phone": "+94 912 100 5118",
     "birthDate": "1979-08-25",
@@ -396,14 +396,14 @@
     "address": {
       "address": "60 Desousa Drive",
       "city": "Manchester",
-      "country": "CT"
+      "country": "BD"
     },
     "university": "University of Sri Jayawardenapura",
     "company": {
       "address": {
         "address": "21950 Arnold Center Road",
         "city": "Carson",
-        "country": "CA"
+        "country": "BD"
       },
       "department": "Sales",
       "title": "Professor"
@@ -424,14 +424,14 @@
     "address": {
       "address": "4 Old Colony Way",
       "city": "Yarmouth",
-      "country": "MA"
+      "country": "BD"
     },
     "university": "Donghua University, Shanghai",
     "company": {
       "address": {
         "address": "22572 Toreador Drive",
         "city": "Salinas",
-        "country": "CA"
+        "country": "BD"
       },
       "department": "Marketing",
       "title": "Software Test Engineer IV"

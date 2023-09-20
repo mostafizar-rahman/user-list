@@ -1,20 +1,17 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { USER_CONTEXT } from "./ContextAPI/UserProvider";
-import UserList from "./Utlit/UserList.json";
+
 import Title from "./Components/Common/Title/Title";
 const App = () => {
-  const { setUser } = useContext(USER_CONTEXT);
-  const [users, setUsers] = useState([]);
+  const { setUserId, users } = useContext(USER_CONTEXT);
   const navigate = useNavigate();
 
-  useEffect(() => {
-    setUsers(UserList);
-  }, []);
 
-  // ---------- Redrict use profile page and get user information
-  const handleUserId = ({ ...userInfo }) => {
-    setUser({ ...userInfo });
+  // ---------- Redrict use profile page, set user id session stroge and userId hooks
+  const handleUserId = (id) => {
+    sessionStorage.setItem("userId", id)
+    setUserId(id);
     navigate("/profile");
   };
 
@@ -22,8 +19,7 @@ const App = () => {
     <div className="max-w-6xl mx-auto my-10 px-5">
       <Title title={"Users List"} />
       <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5">
-        {users?.map((userInfo) => {
-          const { id, image, firstName, lastName, email } = userInfo;
+        {users?.map(({ id, image, firstName, lastName, email }) => {
           return (
             <div
               key={id}
@@ -38,11 +34,11 @@ const App = () => {
                   src={image}
                   alt="profile"
                   className="w-20 h-20 rounded-full object-cover cursor-pointer"
-                  onClick={() => handleUserId({ ...userInfo })}
+                  onClick={() => handleUserId(id)}
                 />
                 <div>
                   <h4
-                    onClick={() => handleUserId({ ...userInfo })}
+                    onClick={() => handleUserId(id)}
                     className="text-xl font-medium cursor-pointer hover:text-primary transition-all"
                   >
                     {firstName} {lastName}
