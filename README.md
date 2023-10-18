@@ -1,8 +1,8 @@
-# React + Vite
+# UserList | Design user list
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Link: https://user-list-design.netlify.app/
 
-Currently, two official plugins are available:
+### Technology
+React.js, Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![image](https://github.com/mostafizar-rahman/user-list/assets/93414878/e8eb1fde-f054-4a72-a3f9-fb977da90353)
